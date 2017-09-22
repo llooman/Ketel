@@ -107,7 +107,7 @@ DS18B20 tempCV( TEMP_PIN, 41   );  //, ds101  ds103 , ( test=ds102 ) 3
 #else
 DS18B20 tempCV( TEMP_PIN, ds103, 41);  //  ds103 TEMP_SENSOR_CV
 #endif
-//dsdsdfsfd
+
 
 #ifdef OTHER_TEMPS
 DS18B20 tempBoiler		(TEMP_PIN, ds104, 47);  //  , ds104  rood
